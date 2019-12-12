@@ -1,0 +1,129 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Automated Timetable Generator</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Archive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="js/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+	$("#datepicker1").datepicker();
+  });
+  </script>
+</head>
+<body>
+<!-- header -->
+	<div class="content-main">
+		<div class="container">
+			<div class="col-md-3 top-left">
+				<div class="logo">
+				<a href="index.html" style="color:#FFFFFF; font-weight:bold;'">College Time Table Generator</a>
+				</div>
+				<h4 class="menn">Menu</h4>
+				<label></label>
+				<div class="head-nav">
+					<span class="menu"> </span>
+						<ul>
+							<li><a href="collage_admin.php">Home</a></li>
+							<li><a href="add_dept.html">Add Departments</a></li>
+							<li class="active"><a href="set_sem.html">Set Semester</a></li>
+                            <li><a href="changepass.php">Change password</a></li>
+                            <li><a href="index.html">Logout</a></li>
+
+						</ul>
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 	
+				</div>
+				<div class="clearfix"> </div>
+				<div class="project">
+					
+				</div>
+		  </div>
+			<div class="col-md-9 top-right">
+		<div class="about-content">
+		 <h2>Set Semester Info </h2>
+		 <div class="about-section">
+			 <div class="about-grid">
+			   <div align="center">
+				   <form name="form1" method="post" action="set_sem.php">
+				   <table width="411" height="148">
+                   <tr>
+                     <td width="132"><strong>Start Date </strong></td>
+                     <td width="170">
+                       <label>
+                       <input name="start" id="datepicker">
+                       </label>                                        </td>
+                   </tr>
+                   <tr>
+                     <td><strong>End Date </strong></td>
+                     <td><input name="end" id="datepicker1"></td>
+                   </tr>
+				   <tr>
+                     <td><strong>Type</strong></td>
+                     <td><p>
+                       <label>
+                         <input type="radio" id="r1" name="Sem_type" value="even">
+                         Even Semester</label>
+                       <br>
+                       <label>
+                         <input type="radio" id="r2" name="Sem_type" value="odd">
+                         Odd Semester</label>
+                       <br>
+                     </p></td>
+				   </tr>
+                   <tr>
+                     <td>&nbsp;</td>
+                     <td><label>
+                       <input name="button" type="submit" class="bg-primary" id="button" value="ADD">
+                     </label></td>
+                   </tr>
+                 </table>  
+				 
+			  </form>
+		   </div>
+	
+
+</div>
+		  </div>
+		</div>
+	 </div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<p>Copyrights © 2017 College Time Table Generator<a href="http://w3layouts.com/"></a></p>
+		</div>
+	</div>
+	<!-- footer -->
+        </div>    
+</body>
+</html>
+

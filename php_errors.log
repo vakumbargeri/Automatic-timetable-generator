@@ -1,0 +1,24 @@
+[16-Apr-2017 11:02:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php on line 30
+[16-Apr-2017 11:02:33 UTC] PHP Stack trace:
+[16-Apr-2017 11:02:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php:0
+[16-Apr-2017 11:02:33 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php:30
+[16-Apr-2017 12:01:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php on line 29
+[16-Apr-2017 12:01:03 UTC] PHP Stack trace:
+[16-Apr-2017 12:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:0
+[16-Apr-2017 12:01:03 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:29
+[16-Apr-2017 12:44:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php on line 30
+[16-Apr-2017 12:44:02 UTC] PHP Stack trace:
+[16-Apr-2017 12:44:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php:0
+[16-Apr-2017 12:44:02 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/user_validate.php:30
+[19-Nov-2017 01:12:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php on line 29
+[19-Nov-2017 01:12:26 UTC] PHP Stack trace:
+[19-Nov-2017 01:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:0
+[19-Nov-2017 01:12:26 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:29
+[19-Nov-2017 01:16:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php on line 29
+[19-Nov-2017 01:16:47 UTC] PHP Stack trace:
+[19-Nov-2017 01:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:0
+[19-Nov-2017 01:16:47 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:29
+[19-Nov-2017 01:16:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php on line 29
+[19-Nov-2017 01:16:54 UTC] PHP Stack trace:
+[19-Nov-2017 01:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:0
+[19-Nov-2017 01:16:54 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/TIMETABLE/Android/lec_validate.php:29
